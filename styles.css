@@ -1,0 +1,126 @@
+html,
+body {
+  /* background-color: rgb(255, 255, 255); */
+  font-family: "Hina Mincho", serif;
+}
+body {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.header {
+  display: flex;
+  justify-content: left;
+
+  flex-direction: column;
+  align-items: flex-start;
+
+  height: 5rem;
+  position: fixed;
+}
+
+.header-text {
+  color: rgb(255, 255, 255);
+  font-size: 6rem;
+  font-weight: 900;
+  /* text-shadow: 2px 1px rgb(252, 241, 149); */
+
+  font-family: "Bebas Neue", cursive;
+}
+
+.sub-text {
+  /* text-shadow: 4px 2px rgb(231, 224, 121); */
+  font-size: 4.5rem;
+  color: rgb(43, 43, 43);
+  margin-top: 3rem;
+  outline: 8px;
+  outline-color: rgb(0, 0, 0);
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-wrapper {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  /* text-shadow: 1px 1px rgb(255, 255, 255); */
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  width: 100%;
+  /* background-color: rgb(236, 181, 247); */
+  position: fixed;
+}
+.nav-link {
+  padding-top: 4rem;
+  padding-left: 2rem;
+  transition: 0.3s;
+  text-decoration: none;
+  color: inherit;
+  margin: 1rem 0;
+}
+
+.nav-link:hover {
+  color: rgb(58, 58, 58);
+  cursor: pointer;
+}
+
+.image-wrapper img {
+  height: 68rem;
+  width: auto;
+  margin: 2rem;
+  padding-top: 95rem;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+.image-wrapper2 img {
+  height: 30rem;
+  width: auto;
+  margin: 2rem;
+}
+
+.image-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+.bkg-img {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  z-index: -1;
+}
+.photo-text {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  text-shadow: 4px 1px rgb(255, 255, 255);
+  color: black;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer p {
+  padding: 0.25rem 1rem;
+}
